@@ -83,7 +83,7 @@ def get_thumbnail(thumbnail_id: str, extension: str):
     )
 
 
-@movie_router.get("/movies/{movie_id}")
+@movie_router.get("/videos/{movie_id}")
 def get_thumbnail(movie_id: str, extension: str):
     file_path = VIDEO_FILES_DIR + "/" + movie_id + extension
 
